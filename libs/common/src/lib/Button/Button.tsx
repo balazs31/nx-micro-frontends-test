@@ -4,7 +4,7 @@ export interface ButtonProps {
 }
 
 export function Button({ title = 'Button' }: ButtonProps) {
-  return <button>{title}</button>;
+  return <button style={{ padding: '10px' }}>{title}</button>;
 }
 
 export default Button;

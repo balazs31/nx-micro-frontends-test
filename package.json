@@ -5,7 +5,10 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "serve": "npx nx serve container --devRemotes=vision,source",
+    "graph": "npx nx graph",
+    "affected": "npx nx affected:apps --plain "
   },
   "private": true,
   "dependencies": {
